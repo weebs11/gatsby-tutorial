@@ -1,6 +1,8 @@
 .container {
   margin: auto;
+  padding: 1rem;
   max-width: 500px;
+  border-style: solid;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
