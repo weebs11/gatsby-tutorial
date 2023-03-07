@@ -1,11 +1,14 @@
 import * as React from 'react';
+import Layout from '../components/layout';
 
 const AboutPage = () => {
   return (
-    <main>
-      <h1>About Me</h1>
-      <p>Hi there! My name is weebs and this is my site.</p>
-    </main>
+    <Layout pageTitle='About Me'>
+      <p>
+        Hi there! My name is weebs and I'm building this site for the Gatsby
+        tutorial.
+      </p>
+    </Layout>
   );
 };
 
