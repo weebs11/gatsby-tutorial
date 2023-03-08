@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tutorial`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `My First Gatsby Site`,
+    siteUrl: `https://gatsby-tutorial.kwehbi.com`,
   },
   plugins: ['gatsby-plugin-image', 'gatsby-plugin-sharp'],
 };
