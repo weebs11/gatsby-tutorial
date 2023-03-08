@@ -6,5 +6,15 @@ module.exports = {
     title: `My First Gatsby Site`,
     siteUrl: `https://gatsby-tutorial.kwehbi.com`,
   },
-  plugins: ['gatsby-plugin-image', 'gatsby-plugin-sharp'],
+  plugins: [
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
+  ],
 };
