@@ -13,10 +13,11 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: `blog`,
-        path: `${__dirname}/blog`,
+        path: `${__dirname}/src/pages`,
       },
     },
     'gatsby-plugin-mdx',
     'gatsby-remark-images',
+    'gatsby-transformer-sharp',
   ],
 };
